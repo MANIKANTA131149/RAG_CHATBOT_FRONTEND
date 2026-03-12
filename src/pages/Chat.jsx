@@ -5,6 +5,8 @@ import { askQuestion } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import toast from 'react-hot-toast';
 
+//This is for handling toast when success or error message comes
+
 const SUGGESTIONS = [
   'Summarize the key points from my documents',
   'What are the main topics covered?',
